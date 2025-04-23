@@ -142,7 +142,7 @@ Much like installing from the CLI, phpBB can also be updated from the CLI using 
 
 In this state, the updater will update your phpBB database and it will also replace all phpBB files with the updated files, giving you a complete upgrade.
 
-However, if you have already replaced the files via the filesystem or FTP, you can choose to update the database only by changing the ``type`` from ``all` to ``db_only``:
+However, if you have already replaced the files via the filesystem or FTP, you can choose to update the database only by changing the ``type`` from ``all`` to ``db_only``:
 
 .. code-block:: console
 
@@ -153,6 +153,6 @@ To update the board, run the following command:
 
 .. code-block:: console
 
-    $ php install/phpbbcli.php update update-config.yml
+    $ php install/phpbbcli.php update install/update-config.yml
 
 The updater will start and show its progress.
